@@ -131,17 +131,12 @@ hr{
     font-size:29px;
 }
 .slogan2{
-    color:#178217;
+    color:#009900;
     font-size:25px;
 }
 .slogan3{
     color:#484848;
     font-size:21px;
-}
-.btn{
-    background-image:url(img/btn_n.png) no-repeat;
-    width: 243px;
-    height: 61px;
 }
 .reg_btn, .reg_btn2{
     width: 295px;
@@ -177,13 +172,14 @@ hr{
 	text-decoration:none;
 	text-align:center;
 	text-shadow:1px 1px 0px #aade7c;
-    margin-top: 0px;
+    margin-top: 30px;
 }
 .reg_btn2{
     width: 241px;
     height: 59px;
     font-size:24px;
     margin-top: 15px;
+    line-height:10px
 }
 .reg_btn:hover, .reg_btn2:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
@@ -259,7 +255,7 @@ h2{
 .sub_title{
     font-weight: bold;
     font-size:14px;
-    color:#178217;
+    color:#009900;
 }
 .about_list{
    font-size:12px;
@@ -293,7 +289,7 @@ h2{
 }
 .place{
     float:left;
-    margin-right: 25px;    
+    margin-right: 25px;
 }
 
 .price_title{
@@ -324,7 +320,7 @@ h2{
 .sub_title4{
     font-size:16px;
     font-weight:bold;
-    color:#178217;
+    color:#009900;
 }
 
 .reg_bt{
@@ -461,12 +457,4 @@ h2{
 .foo_text{
     color:#7190a0;
     font-size:14px;
-}
-
-.price{
-   padding-top: 1px;
-}
-
-.place img{
-    margin-top: 15px;
 }

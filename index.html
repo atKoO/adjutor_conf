@@ -13,6 +13,23 @@
 
 </head>
 <body>
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- Vkontakte -->
+        <script type="text/javascript" src="//vk.com/js/api/openapi.js?98"></script>
+        <script type="text/javascript">
+            VK.Widgets.Group("vk_groups", {mode: 2, width: "270", height: "300"}, 49759072);
+            </script>
+    <!-- Twitter -->   
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            
     <div id="header">
         <nav class="nav_menu">
             <div id="nav_menu_cont">
@@ -21,19 +38,19 @@
                     <li><a href="#place">Место проведения</a></li>
                     <li><a href="#program">Программа</a></li>
                     <li><a href="#terms">Условия участия</a></li>
-                    <li><a href="#reg">Регистрация</a></li>
+                    <li><a href="#reg2">Регистрация</a></li>
                     <li><a href="#speakers">Спикеры</a></li>
                     <li><a href="#partners">Партнеры</a></li>
                     <li><a href="#socials">Новости</a></li>
                 </ul>
                 <ul class="shr">
-                        <li><a href="">
+                        <li><a href="http://www.facebook.com/adjutorNGO">
                             <img src="img/f_btn.png" alt="Facebook">
                         </a></li>
                         <li><a href="">
                             <img src="img/t_btn.png" alt="Twitter">
                         </a></li>
-                        <li><a href="">
+                        <li><a href="http://vk.com/club49759072">
                             <img src="img/vk_btn.png" alt="Vkontakte">
                         </a></li>
                         <li><a href="">
@@ -53,15 +70,25 @@
             <p><span class="slogan1">Международная конференция</span><br><br>
                 <span class="slogan2">Корпоративная социальная ответственность<br>и устойчивое развитие</span><br><br>
                 <span class="slogan3">Харьков (Украина) 12-13 ноября 2013</span></p>
-            <a href="#reg" class="reg_btn">Зарегистрироваться</a>
+            <a href="#reg2" class="reg_btn">Зарегистрироваться</a>
         </div>
         <img src="img/illustr.png" alt="Illusrtation">
+        <hr id="about" class="hr_slider">
+    </div>    
+    <div id="sidebar">
+        <h2 class="sidebar_title">Партнеры</h2>
+        <div class="part_l">
+            <span class="side_plain1">Организаторы</span>
+            <img src="img/adjutor_color.png" alt="logo"></div>
     </div>
-    <div id="sidebar"></div>
     <div id="main">
-        <div id="about">
+        <div id="about2">
             <h2>О конференции</h2>
-            <p class="plain1">Конференция под кодовым названием «КСО и УР» - это мероприятие, объединяющее прогрессивных предпринимателей, тех, которые осознают необходимость работать по-новому. “А по-новому –               это как?” –спросите вы. Ответы – в программе конференции. 12-13 ноября. Харьков. Отель «Харьков Палас». www.adjutor.org.ua/conference</p>
+            <p class="quote1">Делай то, что каждый должен был бы сделать на твоем месте, но чего никто<br> не может сделать вместо тебя /М.Эпштейн, Алмазное правило этики/</p>
+            <p class="plain1">Изменения уже не удивляют. Все привыкли: мир становится все более агрессивным и все менее приятным для проживания… Моральные ценности становятся все более плоскими и все менее содержательными. Бизнес-тренеры проводят обучения «Человек человеку волк» и «Как заработать миллион, манипулируя другими».  Все хотят счастья только для себя и желательно, «чтоб у соседа было хуже»...</p>
+            <p class="plain1">Мир требует изменений! Но изменения нельзя заказать по почте у Бога. Изменения каждый должен начинать с себя, со своих дел, со своих устремлений. </p>
+            <p class="plain1">Как создать то общество, в котором наши дети счастливы? </p>
+            <p class="plain1">Наверное, способ только один: спроектировать это будущее для них! </p>
             <span class="sub_title">Ключевые вопросы конференции “Корпоративная социальная ответственность и устойчивое развитие”:</span>
             <ul class="about_list">
                 <li>Бизнес и устойчивое развитие общества: оценка долгосрочных перспектив</li>
@@ -89,19 +116,19 @@
                 <li>Инвестиционные и финансовые учреждения, благотворительные фонды</li>
                 <li>Специалисты: директора по развитию, специалисты маркетинговых коммуникаций и связей с общественностью, разработчики программ КСО, маркетинговые аналитики, HR-специалисты, социальные                           предприниматели</li>
             </ul>
-            <hr>
+            <hr id="place">
         </div>
-        <div id="place">
+        <div id="place2">
             <h2>Место проведения</h2>
             <span class="sub_title2">Конференция НАЗВАНИЕ будет проходить в гостинице «Харьков Палас»<br>по адресу: пр. Правды,2, г.Харьков 61058, Украина</span>
             <div style="clear: left"></div>
-            <img src="img/map.png" alt="Map" class="map">
+            <iframe class="map" width="376" height="215" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.ua/maps?q=%D1%85%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2+%D0%BF%D0%B0%D0%BB%D0%B0%D1%81&amp;ie=UTF8&amp;hq=%D0%BF%D0%B0%D0%BB%D0%B0%D1%81&amp;hnear=%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2,+%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C&amp;t=m&amp;ll=50.003547,36.237373&amp;spn=0.047443,0.128746&amp;z=12&amp;output=embed"></iframe>
             <p class="plain1">Для участников Конференции бизнес-отель предоставляет бесплатный wi-fi Интернет, бесплатные телефонные звонки на городские номера по г.Харьков и на все мобильные номера
             (каждый конференц-зал, в котором будут работать участники конференции, оборудован телефонным аппаратом), а также бизнес-отель предоставляет специальные цены для проживания участников                                                                                        конференции.</p>
             <div style="clear: left"></div>
-            <hr>
+            <hr id="program">
         </div>
-        <div id="program">
+        <div id="program2">
             <h2>Предварительная программа конференции</h2>
             <span class="sub_title">12 ноября (вторник) — Устойчивое развитие и бизнес </span>
             <div style="clear: left"></div>
@@ -218,9 +245,9 @@
                         <span class="program_bold">Коктейль/Фуршет</span>
                     </p>
                 </div>
-            <hr>
+            <hr id="terms">
         </div>
-        <div id="terms">
+        <div id="terms2">
             <h2>Условия участия в конференции</h2>
             <div class="place">
                 <p class="sub_title">Место проведения:</p>
@@ -256,7 +283,7 @@
                     <li>В случае отказа зарегистрировавшегося делегата от участия в конференции после 01 ноября 2013, регистрационный взнос возврату
 	не подлежит. Все запросы об отмене регистрации подаются только в письменном виде.</li>
                     <li>Замена делегата на другого представителя компании допускается без дополнительной оплаты и каких-либо штрафных санкций.</li>
-                    <li>Если компания не имеет возможности принять участие в конференции, но заинтересована в получении on-line доступа к итоговым материалам
+                    <li id="reg2">Если компания не имеет возможности принять участие в конференции, но заинтересована в получении on-line доступа к итоговым материалам
 	конференции, пожалуйста, отметьте это в регистрационной форме.</li>
                 </ul>
             </div>
@@ -271,14 +298,13 @@
                     затем дождаться получения счета и оплатить участие.<br><br>
                     По вопросам регистрации просьба обращаться по тел. (099) 123-45-676</p>
             </div> 
-            <p class="reg_bt">
+            <div class="reg_bt">
                 <span class="sub_title4">Скачать<br>регистрационную форму</span>
-                <button class="reg_btn2">
-                    <img src="img/btn_icon.png" alt="icon" style="vertical-align: middle">
-                    Скачать
-                </button>
+                <a class="reg_btn2" href="doc/ref_form.doc" >Скачать</a>
+            </div>
+            <hr id="speakers" class="hr2">
         </div>
-        <div id="speakers">
+        <div id="speakers2">
             <h2>Спикеры</h2>
            <div class="speak">
                <div class="speaker">
@@ -319,9 +345,9 @@
                </div>
            </div>
            <div style="clear: left"></div>
-           <hr>
+           <hr id="partners">
         </div>             
-        <div id="parters">
+        <div id="partners2">
             <h2>Партнеры</h2>
             <div class="partner_logo">
                 <div class="logo">
@@ -372,13 +398,61 @@
                 <span class="part_name">ТИС (Трансинвестсервис)</span>
             </div>
             <div style="clear: left"></div>
+            <div id="prop" class="propose">
+            <span class="prop_text">Скачать предложение спонсорам</span>
+            <a class="reg_btn2" href="doc/Sponsors.doc" >Скачать</a>
+            </div>
            <hr>
         </div>
         <div id="socials">
+            <h2>Присоединяйтесь к нам</h2>
+            <!-- Facebook -->
+            <div class="soc_plug">
+                <div class="fb-like-box" data-href="http://www.facebook.com/adjutorNGO"
+                data-width="270" data-height="300" data-show-faces="true" data-header="true"   
+                data-stream="false" data-show-border="true"></div>
+            </div>
+            <!-- VK Widget -->
+            <div class="soc_plug">
+                <div id="vk_groups"></div>
+            </div>
             
+            <!-- Twitter -->
+            <a class="twitter-timeline" width="270" height="300" lang="ru" href="https://twitter.com/atKo_O" data-widget-id="371594175923249152">Твиты пользователя @atKo_O</a>   
         </div>
         </div>
     </div>
-    <div id="footer"></div>
+    <div id="footer">
+        <div class="foo">
+            <div class="foo_logo">
+                <img src="img/adjutor.png" alt="logo">
+                <span class="copy">&copy; 2004-2013 AdjutorConsult</span>
+            </div>
+            <div class="links">
+                <span class="link_title">Конференция</span>
+                <ul>
+                    <li><a href="#program">Программа</a></li>
+                    <li><a href="#speakers">Спикеры</a></li>
+                    <li><a href="#place">Место проведения</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <span class="link_title">Конференция</span>
+                <ul>
+                    <li><a href="#partners">Партнеры</a></li>
+                    <li><a href="#reg2">Регистрация</a></li>
+                    <li><a href="#prop">Стать партнером</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <span class="link_title">Контакты:</span>
+                <ul>
+                    <li><span class="foo_text">Тел. (056)090900</span></li>
+                    <li><span class="foo_text">Моб.+380111111111</span></li>
+                    <li><a href="mailto:adjutor.consult@gmail.com">adjutor.consult@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

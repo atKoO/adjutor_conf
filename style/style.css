@@ -7,8 +7,10 @@ body{
 
 hr{
     width: 842px;
-    background-color:#333333;
+    background-color:#ecebeb;
     margin:39px 0 39px 0;
+    height: 1px;
+    border:0px;
 }
 
 /*navigation*/
@@ -324,8 +326,16 @@ h2{
 .speak{
     text-align:center;
 }
-
-
+.part_name{
+    font-size:12px;
+    font-weight:normal;
+}
+.partner_logo{
+    width: 25%;
+    text-align:center;
+    float:left;
+    margin-bottom: 25px;
+}
 
 
 

@@ -216,6 +216,7 @@ padding-left: 150px;
 
 .part_l{
     margin-left: 30px;
+    margin-bottom: 20px;
 }
 /*about*/
 h2{
@@ -366,6 +367,13 @@ h2{
 
 .speak{
     text-align:center;
+    height: 260px;
+    margin-bottom: 20px;
+    float:left;
+}
+.speak2{
+    text-align:center;
+    height: 260px;
 }
 .part_name{
     font-size:12px;
@@ -375,7 +383,7 @@ h2{
     width: 25%;
     text-align:center;
     float:left;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .prop_text{
@@ -423,7 +431,7 @@ h2{
     float:left;
 }
 .links{
-    width: 198px;
+    width: 210px;
     float:left;
     margin-right: 40px;
 }
@@ -462,4 +470,7 @@ h2{
 }
 a > img{
     border: 0;
-}    
+}
+.side_logo{
+    margin-top: 5px;
+}

@@ -12,23 +12,6 @@ hr{
     height: 1px;
     border:0px;
 }
-
-.hr_slider{
-    width: 842px;
-    background-color:#f0f5fa;
-    margin:0px;
-    height: 1px;
-    border:0px; 
-}
-
-.hr2{
-    width: 842px;
-    background-color:#e3ecf6;
-    margin:0px;
-    height: 1px;
-    border:0px; 
-}
-
 /*navigation*/
 
 .nav_menu{
@@ -94,7 +77,9 @@ hr{
 /*countdown*/
 
 #count{
-    margin: 0 auto;
+padding-left: 150px;
+    width: 1200px;
+    margin-bottom: 20px;
 }
 
 #countdown{
@@ -102,8 +87,9 @@ hr{
     
 }
 .count_text{
-    margin-left: 220px;
-    margin-top: 15px;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-right: 15px;
     font-size:26px;
     color:#107bb0;
     float:left;
@@ -122,8 +108,8 @@ hr{
     z-index:2;
     margin-left: 65px;
     margin-right: 20px;
-    font-family: 'Roboto Slab', serif;
-    font-weight:700;
+    font-family: Tahoma, sans-serif;
+    font-weight:bold;
     float:left
 }
 .slogan1{
@@ -177,7 +163,7 @@ hr{
 	text-decoration:none;
 	text-align:center;
 	text-shadow:1px 1px 0px #aade7c;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 .reg_btn2{
     width: 241px;
@@ -233,7 +219,7 @@ hr{
 }
 /*about*/
 h2{
-    font-family: 'Roboto Slab', serif;
+    font-family: Tahoma, sans-serif;
     font-weight:24px;
     color:#107bb0;
 }
@@ -369,6 +355,7 @@ h2{
     text-align:center;
     display:block;
     color:#333333;
+    margin-bottom: 5px;
 }
 
 .post{
@@ -470,3 +457,9 @@ h2{
 .place img{
     margin-top: 15px;
 }
+.foo_link a:hover{
+    color:#107bb0;
+}
+a > img{
+    border: 0;
+}    
